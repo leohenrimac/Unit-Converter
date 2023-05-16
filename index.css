@@ -1,0 +1,160 @@
+body {
+    background-image: url("images/black-background.jpg");
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+input {
+    height: 80px;
+    width: 120px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    border: 1px solid #B295FF;
+    border-radius: 6px;
+    color: #352B48;
+    padding-left: 14px;
+    margin: 30px auto 15px auto;
+}
+
+input:invalid {
+    outline: 2px solid red;
+    
+   
+}
+
+h2 {
+    text-align: center;
+    color: #CCC1FF;
+}
+
+p {
+    text-align: center;
+    color: white;   
+}
+
+#main {
+    width: 550px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: white;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: #6943FF;
+    border-radius: 6px;
+}
+
+#title-container {
+    background-color: #6943FF;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+
+#tabs-container {
+    background-color: #6943FF;
+    z-index: 1;
+    width: 550px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1px;
+    align-items: end;
+}
+
+#upper-container {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    border-top: none;
+    justify-content: center;
+}
+
+.unit-selection-btn {
+    height: 40px;
+    width: 185px;
+    font-size: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+}
+
+#length-btn {
+    background-color: #F4F4F4;
+    color: #1F2937;
+    height: 50px;
+    padding-top: 11px;
+    
+}
+
+#volume-btn {
+    background-color: #1F2937;
+    color: #F4F4F4;
+   
+    
+}
+
+#mass-btn {
+    background-color: #1F2937;
+    color: #F4F4F4;
+}
+
+#convert-btn {
+   height: 60px;
+   width: 136px;
+   background: linear-gradient(#6943FF, #25165f);
+   margin: 15px auto 30px auto;
+   border-radius: 6px;
+   color: white;
+   box-shadow: 0 4px 1px black;
+}
+
+#convert-btn:hover {
+    opacity: 0.8;
+}
+
+#convert-btn:active {
+    box-shadow: none;
+    margin-top: 19px;
+    margin-bottom: 26px;
+    
+}
+
+#lower-container {
+    background-color: #1F2937;
+    border: 4px solid #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-container {
+    height: 110px ;
+    width: 500px;
+    background-color: #273549;
+    margin: 10px;
+    
+}
+
+#unit1 {
+    margin-top: 40px;
+}
+
+#unit2 {
+    margin-bottom: 40px;
+}

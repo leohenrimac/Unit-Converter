@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial/Metric Unit Converter</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="title-container">
+            Metric/Imperial Unit Conversion
+        </div>
+        <div id="tabs-container">
+            <button class="unit-selection-btn" id="length-btn">Length</button>
+            <button class="unit-selection-btn" id="volume-btn">Volume</button>
+            <button class="unit-selection-btn" id="mass-btn">Mass</button>
+        </div>
+        <div id="upper-container">
+            <input id="input-box" type="number" min="1" max="999" pattern="">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div id="lower-container">
+            <div class="result-container" id="unit1">
+                <h2 id="unit1-name">
+                    Meter
+                </h2>
+                <p id="result1-text"> 
+                    
+                </p>
+            </div>   
+            <div class="result-container" id="unit2"> 
+                <h2 id="unit2-name">
+                    Feet
+                </h2>
+                <p id="result2-text"> 
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
